@@ -38,7 +38,10 @@ def download(link):
 ```
 
 - Now we set up our Graphical User Interface using tkinter and configure it to our preferred settings and arrange code how we'd like the widgets to appear on the screen.
-```pyhton
+
+
+```python
+
 #setting up the GUI
 window = Tk()
 window.title("Instagam Photo/Video Downloader")
@@ -84,7 +87,5 @@ label2 = Label(frame, text=TEXT, font=FONT3, bd=5, fg = "#cd486b", justify=LEFT,
 label2.place(relx=0.48, rely=0.7, relheight=0.1)
 
 window.mainloop()
-
-
 
 ```
